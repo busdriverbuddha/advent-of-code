@@ -1,6 +1,6 @@
-s = input()
+with open("day01.in") as f:
+    s = f.read()
 
-# Day 1
 resulting_floor = 0
 first_entered_basement = -1
 for i, c in enumerate(s, 1):
